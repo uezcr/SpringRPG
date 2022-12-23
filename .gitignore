@@ -1,6 +1,17 @@
 # Visual Studio 2015 user specific files
 .vs/
+.vscode/
+StarterContent/
+Saved/ 
+Intermediate/
+DerivedDataCache/
+Binaries/
+Build/
+Developers/
+*_BuiltData.uasset
 
+*.code-workspace
+*.ignore
 # Compiled Object files
 *.slo
 *.lo
@@ -12,6 +23,7 @@
 *.pch
 
 # Compiled Dynamic libraries
+*.log
 *.so
 *.dylib
 *.dll
@@ -40,6 +52,9 @@
 *.sdf
 *.VC.db
 *.VC.opendb
+
+#Rider
+.idea
 
 # Precompiled Assets
 SourceArt/**/*.png
